@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style type="text/css">
+		body{
+			text-align: center;
+			font-size: 30px;
+		}
+
+		h1::First-letter{
+			color: blue;
+			font-size: 2.5cm;
+			text-shadow: 5px 8px 9px yellow;
+			font-family: monospace;
+		}
+
+		h1{
+			color: red;
+			font-family: monospace;
+		}
+
+		ul::selection{
+			background-color: yellow;
+			color: green;
+			font-family: monospace;
+		}
+
+		#First::First-letter{
+			font-size: 1.5cm;
+			color: blue;
+			font-family: monospace;
+		}
+
+		#First{
+			color: cyan;
+			font-family: monospace;
+		}
+
+		#Second{
+			color: lime;
+			font-family: monospace;
+		}
+
+		#Second::First-letter{
+			font-size: 1.5cm;
+			color: orange;
+			font-family: monospace;
+		}
+
+		#Third{
+			color: red;
+			font-family: monospace;
+		}
+
+		#Third::First-letter{
+			font-size: 1.5cm;
+			color: violet;
+			font-family: monospace;
+		}
+
+		#First:hover{
+			background-image: linear-gradient(to right, red, green, blue, yellow);
+			font-size: 60px;
+			font-family: monospace;
+		}
+
+		#Second:hover{
+			background-image: linear-gradient(to left, pink, purple, violet, orange);
+			font-size: 60px;
+			font-family: monospace;
+		}
+
+		#Third:hover{
+			background-image: linear-gradient(to right, cyan, lime, black, grey);
+			font-size: 60px;
+			font-family: monospace;
+		}
+	</style>
+</head>
+<body>
+	<h1>Favorite Novels</h1>
+	<ul>
+		<div id="First"><li>Harry Potter</li></div>
+		<div id="Second"><li>Percy Jackson</li></div>
+		<div id="Third"><li>Hunger Games</li></div>
+	</ul>
+</body>
+</html>
